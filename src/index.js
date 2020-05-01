@@ -11,6 +11,7 @@ ReactDOM.render(
     <App />
   </BrowserRouter>,
   document.getElementById('root')
+  // added learnfromAKiwi basename
 );
 
 // If you want your app to work offline and load faster, you can change
