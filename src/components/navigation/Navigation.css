@@ -1,3 +1,24 @@
+.navbar {
+    background-color: #0162e4;
+}
+
+.navbar-brand {
+    color: #ffffff;
+    font-weight: 600;
+}
+
 .nav-item {
     cursor: pointer;
 }
+
+.nav-link {
+    color: #ffffff;
+}
+
+a.link:hover {
+    color: #000000;
+}
+
+
+
+
