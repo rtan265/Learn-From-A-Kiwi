@@ -1,5 +1,5 @@
 import React from 'react';
-import { Collapse, Navbar, NavbarToggler, Nav, NavItem, NavLink } from 'reactstrap';
+import { Collapse, Navbar, NavbarToggler, Nav, NavItem, NavLink, NavbarBrand } from 'reactstrap';
 
 import './Navigation.css';
 
@@ -35,14 +35,14 @@ class Navigation extends React.Component {
     console.log("hello from navigation");
     return (
       <div>
-        <Navbar position="sticky" expand="lg" className="navbar sticky-top">
-        <NavLink exact href="/">LearnFromA.Kiwi</NavLink>
-          <NavbarToggler onClick={this.toggleNavbar} aria-controls="responsive-navbar-nav"></NavbarToggler>
+        <Navbar position="sticky" expand="lg" dark className="navbar sticky-top">
+        <NavbarBrand className="link" exact href="/">LearnFromA.Kiwi</NavbarBrand>
+          <NavbarToggler onClick={this.toggleNavbar} />
           <Collapse isOpen={!this.state.collapsed} navbar>
-            <Nav navbar>
+            <Nav navbar className="ml-auto">
               {
                 links.map((objLink, i) => {
-                  return (<NavItem><NavLink key={i} href={ objLink.link }>{ objLink.text }</NavLink></NavItem> )
+                  return (<NavItem><NavLink className="link" key={i} href={ objLink.link }>{ objLink.text }</NavLink></NavItem> )
                 })
               }
             </Nav>
