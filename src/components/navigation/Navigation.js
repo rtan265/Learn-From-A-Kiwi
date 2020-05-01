@@ -4,9 +4,9 @@ import { Collapse, Navbar, NavbarToggler, Nav, NavItem, NavLink } from 'reactstr
 import './Navigation.css';
 
 const links = [
-  { link: "/", text:"LandingPage" },
-  { link: "/login", text:"Login" },
-  { link: "/login", text:"About" },
+  { link: "/explore", text:"Explore" },
+  { link: "/instructors", text:"Instructors" },
+  { link: "/signIn", text:"Sign in" },
 ];
 
 class Navigation extends React.Component {
@@ -36,7 +36,7 @@ class Navigation extends React.Component {
     return (
       <div>
         <Navbar position="sticky" expand="lg" className="navbar sticky-top">
-        <NavLink exact to="/">Learn From A Kiwi</NavLink>
+        <NavLink exact href="/">LearnFromA.Kiwi</NavLink>
           <NavbarToggler onClick={this.toggleNavbar} aria-controls="responsive-navbar-nav"></NavbarToggler>
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav navbar>
