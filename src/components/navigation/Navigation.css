@@ -2,23 +2,35 @@
     background-color: #0162e4;
 }
 
-.navbar-brand {
+a.link.navbar-brand {
     color: #ffffff;
+    font-size: 2em;
     font-weight: 600;
+    padding-left: 1em;
 }
 
 .nav-item {
     cursor: pointer;
+    padding: 1em;
 }
 
-.nav-link {
-    color: #ffffff;
+a.link.nav-link {
+    color: #ffffff !important;
+    font-size: 1em;
 }
 
 a.link:hover {
     color: #000000;
 }
 
+@media (max-width: 768px) {
+    a.link.navbar-brand {
+        font-size: 1.5em;
+    }
+    .nav-item {
+        padding: 0.1em;
+    }
+}
 
 
 

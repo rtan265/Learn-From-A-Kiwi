@@ -35,9 +35,9 @@ class Navigation extends React.Component {
     console.log("hello from navigation");
     return (
       <div>
-        <Navbar position="sticky" expand="lg" className="navbar sticky-top">
+        <Navbar position="sticky" expand="lg" dark className="navbar sticky-top">
         <NavbarBrand className="link" exact href="/">LearnFromA.Kiwi</NavbarBrand>
-          <NavbarToggler onClick={this.toggleNavbar} aria-controls="responsive-navbar-nav"></NavbarToggler>
+          <NavbarToggler onClick={this.toggleNavbar} />
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav navbar className="ml-auto">
               {
