@@ -1,0 +1,49 @@
+h1.display-3 {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 2em;
+    padding-bottom: 1em;
+}
+
+.jumbotron {
+    height: 22em;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+h2.title {
+    text-align: center;
+    color: #0162e4;
+    margin: auto;
+}
+
+p.sub {
+    margin: auto;
+    padding: 2em;
+}
+
+.classImg {
+    height: 15em;
+    width: 15em;
+    display: block;
+}
+
+.class {
+    width: 15em;
+    margin: auto;
+    padding-bottom: 1em;
+}
+
+.linkHover {
+    color: #000000;
+}
+
+.linkHover:hover {
+    text-decoration: none;
+}
