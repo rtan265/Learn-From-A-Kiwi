@@ -15,10 +15,10 @@ class Routes extends React.Component {
             //     <Route path="/signin" component={ SignIn } exact/>
             // </Switch>
             <Switch>
-            <Link to = "learnFromAKiwi/" component = { LandingPage } />
-            <Link to = "learnFromAKiwi/explore" component = { Explore } />
-            <Link to = "learnFromAKiwi/instructors" component = { Instructors } />
-            <Link to = "learnFromAKiwi/signin" component = { SignIn } />
+                <Link to = "learnFromAKiwi/" component = { LandingPage } />
+                <Link to = "learnFromAKiwi/explore" component = { Explore } />
+                <Link to = "learnFromAKiwi/instructors" component = { Instructors } />
+                <Link to = "learnFromAKiwi/signin" component = { SignIn } />
             </Switch>
         );
     }
