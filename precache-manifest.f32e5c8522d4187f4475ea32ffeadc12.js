@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4591c73632dd8882bdac6040ffef2e85",
+    "revision": "369d7eb536670c93693684d095fa3349",
     "url": "/learnFromAKiwi/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/learnFromAKiwi/static/css/2.69121389.chunk.css"
   },
   {
-    "revision": "2116f4c3e209cd53f94f",
+    "revision": "e9c8334c3cacc9576d09",
     "url": "/learnFromAKiwi/static/css/main.9f1a9f2c.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/learnFromAKiwi/static/js/2.fb4fdc63.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2116f4c3e209cd53f94f",
-    "url": "/learnFromAKiwi/static/js/main.b4a4cac3.chunk.js"
+    "revision": "e9c8334c3cacc9576d09",
+    "url": "/learnFromAKiwi/static/js/main.3b1a1956.chunk.js"
   },
   {
     "revision": "952c10a7613bc2ed90ac",
