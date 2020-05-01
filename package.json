@@ -2,7 +2,7 @@
   "name": "learnfromakiwi",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://rtan265.github.io/learnFromAKiwi",
+  "homepage": "http://learnFromAKiwi.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
