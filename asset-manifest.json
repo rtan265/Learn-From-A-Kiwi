@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/learnFromAKiwi/static/css/main.9f1a9f2c.chunk.css",
-    "main.js": "/learnFromAKiwi/static/js/main.a0cfc607.chunk.js",
-    "main.js.map": "/learnFromAKiwi/static/js/main.a0cfc607.chunk.js.map",
+    "main.js": "/learnFromAKiwi/static/js/main.9a502d1e.chunk.js",
+    "main.js.map": "/learnFromAKiwi/static/js/main.9a502d1e.chunk.js.map",
     "runtime-main.js": "/learnFromAKiwi/static/js/runtime-main.e9baa3be.js",
     "runtime-main.js.map": "/learnFromAKiwi/static/js/runtime-main.e9baa3be.js.map",
     "static/css/2.69121389.chunk.css": "/learnFromAKiwi/static/css/2.69121389.chunk.css",
     "static/js/2.fb4fdc63.chunk.js": "/learnFromAKiwi/static/js/2.fb4fdc63.chunk.js",
     "static/js/2.fb4fdc63.chunk.js.map": "/learnFromAKiwi/static/js/2.fb4fdc63.chunk.js.map",
     "index.html": "/learnFromAKiwi/index.html",
-    "precache-manifest.c7ac8929a05b54be94aa47380a282ff8.js": "/learnFromAKiwi/precache-manifest.c7ac8929a05b54be94aa47380a282ff8.js",
+    "precache-manifest.08f2bb1b180057ca6177ab0567414c4e.js": "/learnFromAKiwi/precache-manifest.08f2bb1b180057ca6177ab0567414c4e.js",
     "service-worker.js": "/learnFromAKiwi/service-worker.js",
     "static/css/2.69121389.chunk.css.map": "/learnFromAKiwi/static/css/2.69121389.chunk.css.map",
     "static/css/main.9f1a9f2c.chunk.css.map": "/learnFromAKiwi/static/css/main.9f1a9f2c.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.69121389.chunk.css",
     "static/js/2.fb4fdc63.chunk.js",
     "static/css/main.9f1a9f2c.chunk.css",
-    "static/js/main.a0cfc607.chunk.js"
+    "static/js/main.9a502d1e.chunk.js"
   ]
 }
