@@ -9,10 +9,10 @@ class Routes extends React.Component {
     render() {
         return (
             <Switch>
-                <Route path="/learnFromAKiwi" component={ LandingPage } exact/>
-                <Route path="/learnFromAKiwi/explore" component={ Explore } exact/>
-                <Route path="/learnFromAKiwi/instructors" component={ Instructors } exact/>
-                <Route path="/learnFromAKiwi/signin" component={ SignIn } exact/>
+                <Route path="/" component={ LandingPage } exact/>
+                <Route path="/explore" component={ Explore } exact/>
+                <Route path="/instructors" component={ Instructors } exact/>
+                <Route path="/signin" component={ SignIn } exact/>
             </Switch>
             // working?
         );
