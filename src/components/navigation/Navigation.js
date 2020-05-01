@@ -1,12 +1,13 @@
 import React from 'react';
 import { Collapse, Navbar, NavbarToggler, Nav, NavItem, NavLink, NavbarBrand } from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 import './Navigation.css';
 
 const links = [
   { link: "/explore", text:"Explore" },
   { link: "/instructors", text:"Instructors" },
-  { link: "/signIn", text:"Sign in" },
+  { link: "/signin", text:"Sign in" },
 ];
 
 class Navigation extends React.Component {
@@ -42,7 +43,7 @@ class Navigation extends React.Component {
             <Nav navbar className="ml-auto">
               {
                 links.map((objLink, i) => {
-                  return (<NavItem><NavLink className="link" key={i} href={ objLink.link }>{ objLink.text }</NavLink></NavItem> )
+                  return (<NavItem><Link to={ objLink.link } className="link" key={i} to={ objLink.link }>{ objLink.text }</Link></NavItem> )
                 })
               }
             </Nav>
