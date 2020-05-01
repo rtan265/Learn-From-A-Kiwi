@@ -1,26 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
+import { withRouter } from 'react-router-dom';
+import Navigation from './components/navigation/Navigation';
+import Routes from './components/routes/Routes';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          It works!
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    const { location } = this.props
+    return (
+        <main className="App">
+          {/* {
+            location.pathname !== "/" && <Navigation />
+          } */}
+          <Navigation />
+          <Routes />
+        </main>
+    );
+  }
 }
 
-export default App;
+export default withRouter(App);
