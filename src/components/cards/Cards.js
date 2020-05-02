@@ -33,7 +33,7 @@ class Cards extends React.Component {
                                             <CardTitle style={{textAlign: "left"}}>{ key.cat }</CardTitle>
                                             <CardSubtitle style={{textAlign: "left"}}>{ key.title }</CardSubtitle>
                                             <CardText style={{textAlign: "left"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula turpis at finibus rutrum. </CardText>
-                                            <Button style={{backgroundColor: "#0162e4"}}>
+                                            <Button style={{backgroundColor: "#0162e4"}} className="explore-class-button">
                                                 <Link to={ "/instructorAdditionalInfo" } className="cardLink">Explore classes</Link>
                                             </Button>
                                         </CardBody>

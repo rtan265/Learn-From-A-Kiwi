@@ -59,6 +59,10 @@ p.lllText {
     object-fit: cover;
 }
 
+.classImg:hover {
+    opacity: 50%;
+}
+
 .class {
     width: 15em;
     margin: auto;
@@ -79,6 +83,10 @@ p.lllText {
     margin-right: auto;
 }
 
+.subject:hover {
+    opacity: 50%;
+}
+
 .linkHover {
     color: #000000;
 }
@@ -93,6 +101,15 @@ p.lllText {
     margin-bottom: 2em;
     margin-left: auto;
     margin-right: auto;
+}
+
+a.explore-button {
+    color: #ffffff;
+}
+
+a.explore-button:hover {
+    color: #ffffff;
+    text-decoration: None;
 }
 
 @media (max-width: 768px) {

@@ -14,7 +14,7 @@ class InstructorGrid extends React.Component {
               <h1 className="display-3">Instructors</h1>
             </Jumbotron>
             <Row style={{paddingTop: "2em"}}>
-                <Col xs="2"><SubjectBar /></Col>
+                <Col xs="2" className="mobileHide"><SubjectBar /></Col>
                 <Col><Cards /></Col>
             </Row>
         </div>
