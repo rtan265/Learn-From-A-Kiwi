@@ -5,6 +5,7 @@ import Explore from '../explore/Explore';
 import Instructors from '../instructors/Instructors';
 import SignIn from '../signIn/SignIn';
 import InProgress from '../inProgress/InProgress';
+import InstructorAdditionalInfo from '../instructorAdditionalInfo/InstructorAdditionalInfo';
 
 class Routes extends React.Component {
     render() {
@@ -12,7 +13,7 @@ class Routes extends React.Component {
             <Switch>
                 <Route path="/" component={ LandingPage } exact/>
                 <Route path="/explore" component={ Explore } exact/>
-                <Route path="/instructors" component={ Instructors } exact/>
+                <Route path="/instructors" component={ InstructorAdditionalInfo } exact/>
                 <Route path="/signin" component={ SignIn } exact/>
                 <Route path="/*" component = { InProgress } exact />
             </Switch>
