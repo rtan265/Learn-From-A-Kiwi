@@ -15,8 +15,8 @@ import { Link } from 'react-router-dom';
 class LandingPage extends React.Component {
   render() {
     return (
-        <div>
-            <Jumbotron style={{ backgroundImage: `url(${JumbotronImg})`, backgroundSize: 'cover' }} className="jumbotron" fluid>
+        <div style={{backgroundColor: "#eff0f2"}}>
+            <Jumbotron style={{ backgroundImage: `url(${JumbotronImg})`, backgroundSize: 'cover' }} fluid>
                 <Container fluid className="vertical-center">
                     <h1 className="display-3">Locals. Learning. Live</h1>
                     <p className="lead">
@@ -24,7 +24,7 @@ class LandingPage extends React.Component {
                     </p>
                 </Container>
             </Jumbotron>
-            <Container fluid>
+            <Container fluid className="containerBg">
                 <Row> 
                     <h2 className="title">Find an Instructor</h2>
                 </Row>
@@ -71,6 +71,68 @@ class LandingPage extends React.Component {
                                 <figcaption>Culinary Chris</figcaption>
                             </figure>
                         </Link>
+                    </Col>
+                </Row>
+            </Container>
+            <Container fluid className="containerBg">
+                <Row> 
+                    <h2 className="title">Browse classes by subject</h2>
+                </Row>
+                <Row className="subjectContainer">
+                    <Col>
+                        <Link className="linkHover" to="/inprogress">
+                            <div className="subject" style={{backgroundColor: "#e49b53"}}><h3>Art</h3></div>
+                        </Link>
+                    </Col>
+                    <Col>
+                        <Link className="linkHover" to="/inprogress">
+                            <div className="subject" style={{backgroundColor: "#8cb85f"}}><h3>Eco-living</h3></div>
+                        </Link>
+                    </Col>
+                    <Col>
+                        <Link className="linkHover" to="/inprogress">
+                            <div className="subject" style={{backgroundColor: "#d6a4e4"}}><h3>Yoga</h3></div>
+                        </Link>
+                    </Col>
+                    <Col>
+                        <Link className="linkHover" to="/inprogress">
+                            <div className="subject" style={{backgroundColor: "#ff5757"}}><h3>Language</h3></div>   
+                        </Link>
+                    </Col>
+                    <Col>
+                        <Link className="linkHover" to="/inprogress">
+                            <div className="subject" style={{backgroundColor: "#ffde59"}}><h3>Cooking</h3></div>    
+                        </Link>
+                    </Col>
+                    <Col>
+                        <Link className="linkHover" to="/inprogress">
+                            <div className="subject" style={{backgroundColor: "#4790f1"}}><h3>Wellness</h3></div>    
+                        </Link>
+                    </Col>
+                </Row>
+            </Container>
+            <Container fluid className="containerBg" style={{marginBottom: "0em"}}>
+                <Row>
+                    <h2 className="title">Why learn from a Kiwi?</h2>
+                </Row>
+                <Row>
+                    <Col>
+                        <h4 className="lllTitle">Locals</h4>
+                        <div className="lll">
+                            <p className="lllText">Community has never been more important. <br/> Classes taught by locals for locals. <br/> LearnFromA.Kiwi allows you to enjoy the classes you'd usually take in person (and some you wouldn't) from the comfort of your own home.</p>
+                        </div>
+                    </Col>
+                    <Col>
+                        <h4 className="lllTitle">Learning</h4>
+                        <div className="lll">
+                            <p className="lllText">There's never been a better time to learn a new skill or try something just for fund! <br/> We make learning easy by bringing it to your lounge</p>
+                        </div>
+                    </Col>
+                    <Col>
+                        <h4 className="lllTitle">Live</h4>
+                        <div className="lll">
+                            <p className="lllText">It's time to feel CONNECTED! Our live classes allow you to have some of that actual human connection we're all craving. <br/> Live to your living room.</p>
+                        </div>
                     </Col>
                 </Row>
             </Container>
