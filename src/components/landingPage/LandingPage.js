@@ -9,6 +9,7 @@ import YogaByTaryn from '../../images/yogaByTaryn.jpg';
 import PlantCare from '../../images/plantCare.jpg';
 import Poetry from '../../images/poetry.jpg';
 import CulinaryChris from '../../images/culinaryChris.jpg';
+import { Link } from 'react-router-dom';
 
 class LandingPage extends React.Component {
   render() {
@@ -31,44 +32,44 @@ class LandingPage extends React.Component {
                 </Row>
                 <Row>
                     <Col>
-                        <a className="linkHover" href="/instructors">
+                        <Link className="linkHover" to="/instructors">
                             <figure className="class">                           
                                 <img src={ JanineHomemade } alt="Janine Homemade" className="classImg" />
                                 <figcaption>Janine Homemade</figcaption>
                             </figure>
-                        </a>
+                        </Link>
                     </Col>
                     <Col>
-                        <a className="linkHover" href="/instructors">
+                        <Link className="linkHover" to="/instructors">
                             <figure className="class">                            
                                 <img src={ YogaByTaryn } alt="Yoga by Taryn" className="classImg" />
                                 <figcaption>Yoga By Taryn</figcaption>
                             </figure>
-                        </a>
+                        </Link>
                     </Col>
                     <Col>
-                        <a className="linkHover" href="/instructors">
+                        <Link className="linkHover" to="/instructors">
                             <figure className="class">
                                 <img src={ PlantCare } alt="Plant Care" className="classImg" />
                                 <figcaption>Plant Care</figcaption>
                             </figure>
-                        </a>
+                        </Link>
                     </Col>
                     <Col>
-                        <a className="linkHover" href="/instructors">
+                        <Link className="linkHover" to="/instructors">
                             <figure className="class">
                                 <img src={ Poetry } alt= "Poetry" className="classImg" />
                                 <figcaption>Poetry</figcaption>
                             </figure>
-                        </a>
+                        </Link>
                     </Col>
                     <Col>
-                        <a className="linkHover" href="/instructors">
+                        <Link className="linkHover" to="/instructors">
                             <figure className="class">
                                 <img src={ CulinaryChris } alt="CulinaryChris" className="classImg" />
                                 <figcaption>Culinary Chris</figcaption>
                             </figure>
-                        </a>
+                        </Link>
                     </Col>
                 </Row>
             </Container>

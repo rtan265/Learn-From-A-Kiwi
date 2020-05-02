@@ -43,7 +43,7 @@ class Navigation extends React.Component {
             <Nav navbar className="ml-auto">
               {
                 links.map((objLink, i) => {
-                  return (<NavItem><Link to={ objLink.link } className="link" key={i} to={ objLink.link }>{ objLink.text }</Link></NavItem> )
+                  return (<NavItem><Link to={ objLink.link } className="link" key={i}>{ objLink.text }</Link></NavItem> )
                 })
               }
             </Nav>
