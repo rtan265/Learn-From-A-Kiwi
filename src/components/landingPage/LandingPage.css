@@ -7,6 +7,15 @@ h1.display-3 {
 
 .jumbotron {
     height: 22em;
+    margin-bottom: 0em !important;
+}
+
+.container-fluid {
+    margin-bottom: 1em;
+}
+
+.containerBg {
+    background-color: #ffffff;
 }
 
 .vertical-center {
@@ -21,11 +30,25 @@ h2.title {
     text-align: center;
     color: #0162e4;
     margin: auto;
+    padding: 1em 0.5em 1em 0.5em;
 }
 
 p.sub {
     margin: auto;
-    padding: 2em;
+    padding: 0em 0.5em 2em 0.5em;
+}
+
+h3 {
+    color: #ffffff;
+    line-height: 6.5em !important;
+}
+
+h4.lllTitle {
+    font-size: 2.5em;
+}
+
+p.lllText {
+    padding: 0.5em 1em 0.5em 1em;
 }
 
 .classImg {
@@ -40,10 +63,38 @@ p.sub {
     padding-bottom: 1em;
 }
 
+.subjectContainer {
+    width: 80%;
+    margin: auto !important;
+}
+
+.subject {
+    width: 20em;
+    height: 12em;
+    display: block;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .linkHover {
     color: #000000;
 }
 
 .linkHover:hover {
     text-decoration: none;
+}
+
+.lll {
+    width: 25em;
+    display: block;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 768px) {
+    .subjectContainer {
+        width: 100%;
+    }   
 }
