@@ -26,7 +26,7 @@ class SignIn extends React.Component {
     if (this.state.loginState === "student"){
       return(
         <form className = "sign-in-form">
-        <h3>Sign In as a <strong>Student</strong></h3>
+        <h3 className="title-signin">Sign In as a <strong>Student</strong></h3>
         <div className = "form-group">
           <label>Email Address</label>
           <input type = "email" className = "form-control" placeholder= "Enter Email" style = {{width: "50%", margin: "auto"}}/>
@@ -56,7 +56,7 @@ class SignIn extends React.Component {
     } else {
       return (
         <form className = "sign-in-form">
-          <h3>Sign In as an <strong>Instructor</strong></h3>
+          <h3 className="title-signin">Sign In as an <strong>Instructor</strong></h3>
           <div className = "form-group">
             <label>Email Address</label>
             <input type = "email" className = "form-control" placeholder= "Enter Email" style = {{width: "50%", margin: "auto"}}/>
