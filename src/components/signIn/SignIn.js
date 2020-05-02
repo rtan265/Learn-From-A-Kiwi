@@ -44,7 +44,7 @@ class SignIn extends React.Component {
           </div>  
         </div>
 
-        <button type="submit" className="btn btn-primary btn-block" style = {{width: "50%", margin: "auto"}}>Submit</button>
+        <button type="submit" className="btn btn-primary btn-block" style = {{width: "30%", margin: "auto"}}>Submit</button>
         <div style = {{textAlign: "center"}}>
           Forgot <a href="#">password?</a>
         </div>
