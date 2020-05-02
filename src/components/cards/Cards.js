@@ -1,5 +1,7 @@
 import React from 'react';
 import { Container, Button, Row, Col, Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle, } from 'reactstrap';
+import { Link } from 'react-router-dom';
+
 
 import './Cards.css';
 
@@ -31,7 +33,9 @@ class Cards extends React.Component {
                                             <CardTitle style={{textAlign: "left"}}>{ key.cat }</CardTitle>
                                             <CardSubtitle style={{textAlign: "left"}}>{ key.title }</CardSubtitle>
                                             <CardText style={{textAlign: "left"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula turpis at finibus rutrum. </CardText>
-                                            <Button style={{backgroundColor: "#0162e4"}}>Explore classes</Button>
+                                            <Button style={{backgroundColor: "#0162e4"}}>
+                                                <Link to={ "/instructorAdditionalInfo" } className="link">Explore classes</Link>
+                                            </Button>
                                         </CardBody>
                                     </Card>  
                                 </Col>  

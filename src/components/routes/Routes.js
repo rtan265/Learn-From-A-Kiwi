@@ -13,8 +13,9 @@ class Routes extends React.Component {
             <Switch>
                 <Route path="/" component={ LandingPage } exact/>
                 <Route path="/explore" component={ Explore } exact/>
-                <Route path="/instructors" component={ InstructorAdditionalInfo } exact/>
+                <Route path="/instructors" component={ Instructors } exact/>
                 <Route path="/signin" component={ SignIn } exact/>
+                <Route path="/instructorAdditionalInfo" component = { InstructorAdditionalInfo } exact/>
                 <Route path="/*" component = { InProgress } exact />
             </Switch>
         );
