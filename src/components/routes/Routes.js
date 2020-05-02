@@ -2,9 +2,10 @@ import React from 'react';
 import { Route, Switch, Link } from 'react-router-dom';
 import LandingPage from '../landingPage/LandingPage';
 import Explore from '../explore/Explore';
-import Instructors from '../instructors/Instructors';
+import Instructors from '../instructorGrid/InstructorGrid';
 import SignIn from '../signIn/SignIn';
 import InProgress from '../inProgress/InProgress';
+import InstructorAdditionalInfo from '../instructorAdditionalInfo/InstructorAdditionalInfo';
 
 class Routes extends React.Component {
     render() {
@@ -14,6 +15,7 @@ class Routes extends React.Component {
                 <Route path="/explore" component={ Explore } exact/>
                 <Route path="/instructors" component={ Instructors } exact/>
                 <Route path="/signin" component={ SignIn } exact/>
+                <Route path="/instructorAdditionalInfo" component = { InstructorAdditionalInfo } exact/>
                 <Route path="/*" component = { InProgress } exact />
             </Switch>
         );

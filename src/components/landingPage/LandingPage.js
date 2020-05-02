@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Jumbotron, Button, Row, Col } from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 import './LandingPage.css';
 import Footer from '../footer/Footer';
@@ -10,7 +11,7 @@ import YogaByTaryn from '../../images/yogaByTaryn.jpg';
 import PlantCare from '../../images/plantCare.jpg';
 import Poetry from '../../images/poetry.jpg';
 import CulinaryChris from '../../images/culinaryChris.jpg';
-import { Link } from 'react-router-dom';
+
 
 class LandingPage extends React.Component {
   render() {
