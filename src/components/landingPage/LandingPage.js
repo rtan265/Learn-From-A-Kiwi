@@ -20,7 +20,7 @@ class LandingPage extends React.Component {
                 <Container fluid className="vertical-center">
                     <h1 className="display-3">Locals. Learning. Live</h1>
                     <p className="lead">
-                        <Button href="learnFromAKiwi/explore" color="dark">EXPLORE</Button>
+                        <Button color="dark"><Link className = "explore-button" to="/explore">EXPLORE</Link></Button>
                     </p>
                 </Container>
             </Jumbotron>
