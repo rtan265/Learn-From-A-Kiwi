@@ -4,6 +4,7 @@ import LandingPage from '../landingPage/LandingPage';
 import Explore from '../explore/Explore';
 import Instructors from '../instructors/Instructors';
 import SignIn from '../signIn/SignIn';
+import InProgress from '../inProgress/InProgress';
 
 class Routes extends React.Component {
     render() {
@@ -13,6 +14,7 @@ class Routes extends React.Component {
                 <Route path="/explore" component={ Explore } exact/>
                 <Route path="/instructors" component={ Instructors } exact/>
                 <Route path="/signin" component={ SignIn } exact/>
+                <Route path="/*" component = { InProgress } exact />
             </Switch>
         );
     }
