@@ -111,7 +111,7 @@ class LandingPage extends React.Component {
                     </Col>
                 </Row>
             </Container>
-            <Container fluid className="containerBg">
+            <Container fluid className="containerBg" style={{marginBottom: "0em"}}>
                 <Row>
                     <h2 className="title">Why learn from a Kiwi?</h2>
                 </Row>
