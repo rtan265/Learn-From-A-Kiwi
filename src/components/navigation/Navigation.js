@@ -33,7 +33,6 @@ class Navigation extends React.Component {
   }
 
   render() {
-    console.log("hello from navigation");
     return (
       <div>
         <Navbar position="sticky" expand="lg" dark className="navbar sticky-top">
