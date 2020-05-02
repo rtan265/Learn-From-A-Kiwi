@@ -7,7 +7,7 @@ import './Navigation.css';
 import brand from '../../images/brand.png';
 
 const links = [
-  { link: "/explore", text:"Explore" },
+  { link: "/explore", text:"Explore Timetables" },
   { link: "/instructors", text:"Instructors" },
   { link: "/signin", text:"Sign in" }
 ];

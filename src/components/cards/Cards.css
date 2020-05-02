@@ -8,4 +8,11 @@
     padding-bottom: 0.5em;
 }
 
+.cardLink {
+    color: #ffffff;
+}
 
+.cardLink:hover {
+    color: #ffffff;
+    text-decoration: None;
+}
