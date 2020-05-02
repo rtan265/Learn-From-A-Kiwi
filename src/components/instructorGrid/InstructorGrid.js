@@ -10,7 +10,9 @@ class InstructorGrid extends React.Component {
   render() {
     return (
         <div>
-            <Jumbotron style={{ backgroundImage: `url(${JumbotronImg})`, backgroundSize: 'cover' }} fluid />
+            <Jumbotron style={{ backgroundImage: `url(${JumbotronImg})`, backgroundSize: 'cover', height: "28em" }} fluid>
+              <h1 className="display-3">Instructors</h1>
+            </Jumbotron>
             <Row style={{paddingTop: "2em"}}>
                 <Col xs="2"><SubjectBar /></Col>
                 <Col><Cards /></Col>
