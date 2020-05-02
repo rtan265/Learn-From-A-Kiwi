@@ -14,12 +14,13 @@ a.link.navbar-brand {
     padding: 1em;
 }
 
-a.link.nav-link {
+a.link {
     color: #ffffff !important;
     font-size: 1em;
 }
 
 a.link:hover {
+    text-decoration: None;
     color: #000000;
 }
 
@@ -31,6 +32,3 @@ a.link:hover {
         padding: 0.1em;
     }
 }
-
-
-
