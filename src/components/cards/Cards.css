@@ -1,0 +1,11 @@
+.card {
+    width: 15em;
+    background-color: #eff0f2 !important;
+}
+
+.card-subtitle {
+    font-weight: 600;
+    padding-bottom: 0.5em;
+}
+
+
