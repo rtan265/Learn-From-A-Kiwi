@@ -6,11 +6,11 @@ import './LandingPage.css';
 import Footer from '../footer/Footer';
 
 import JumbotronImg from '../../images/jumbotron.jpg';
-import JanineHomemade from '../../images/janineHomemade.jpg';
-import YogaByTaryn from '../../images/yogaByTaryn.jpg';
-import PlantCare from '../../images/plantCare.jpg';
-import Poetry from '../../images/poetry.jpg';
-import CulinaryChris from '../../images/culinaryChris.jpg';
+import Janine from '../../images/janine.jpg';
+import Taryn from '../../images/taryn.jpg';
+import MariaDeclan from '../../images/mariaDeclan.jpg';
+import CassieBen from '../../images/cassieBen.jpg';
+import Esther from '../../images/esther.jpg';
 
 
 class LandingPage extends React.Component {
@@ -21,7 +21,7 @@ class LandingPage extends React.Component {
                 <Container fluid className="vertical-center">
                     <h1 className="display-3">Locals. Learning. Live</h1>
                     <p className="lead">
-                        <Button color="dark"><Link className = "explore-button" to="/explore">EXPLORE</Link></Button>
+                        <Button color="dark"><Link className = "explore-button" to="/explore">EXPLORE TIMETABLES</Link></Button>
                     </p>
                 </Container>
             </Jumbotron>
@@ -34,42 +34,42 @@ class LandingPage extends React.Component {
                 </Row>
                 <Row>
                     <Col>
-                        <Link className="linkHover" to="/instructors">
+                        <Link className="linkHover" to="/instructorAdditionalInfo">
                             <figure className="class">                           
-                                <img src={ JanineHomemade } alt="Janine Homemade" className="classImg" />
-                                <figcaption>Janine Homemade</figcaption>
+                                <img src={ Janine } alt="Janine" className="classImg" />
+                                <figcaption>Janine</figcaption>
                             </figure>
                         </Link>
                     </Col>
                     <Col>
                         <Link className="linkHover" to="/instructors">
                             <figure className="class">                            
-                                <img src={ YogaByTaryn } alt="Yoga by Taryn" className="classImg" />
-                                <figcaption>Yoga By Taryn</figcaption>
+                                <img src={ Taryn } alt="Taryn" className="classImg" />
+                                <figcaption>Taryn</figcaption>
                             </figure>
                         </Link>
                     </Col>
                     <Col>
                         <Link className="linkHover" to="/instructors">
                             <figure className="class">
-                                <img src={ PlantCare } alt="Plant Care" className="classImg" />
-                                <figcaption>Plant Care</figcaption>
+                                <img src={ MariaDeclan } alt="Maria \& Declan" className="classImg" />
+                                <figcaption>Maria &#38; Declan</figcaption>
                             </figure>
                         </Link>
                     </Col>
                     <Col>
                         <Link className="linkHover" to="/instructors">
                             <figure className="class">
-                                <img src={ Poetry } alt= "Poetry" className="classImg" />
-                                <figcaption>Poetry</figcaption>
+                                <img src={ CassieBen } alt= "Cassie \& Ben" className="classImg" />
+                                <figcaption>Cassie &#38; Ben</figcaption>
                             </figure>
                         </Link>
                     </Col>
                     <Col>
                         <Link className="linkHover" to="/instructors">
                             <figure className="class">
-                                <img src={ CulinaryChris } alt="CulinaryChris" className="classImg" />
-                                <figcaption>Culinary Chris</figcaption>
+                                <img src={ Esther } alt="Esther" className="classImg" />
+                                <figcaption>Esther</figcaption>
                             </figure>
                         </Link>
                     </Col>
@@ -82,32 +82,32 @@ class LandingPage extends React.Component {
                 <Row className="subjectContainer">
                     <Col>
                         <Link className="linkHover" to="/inprogress">
-                            <div className="subject" style={{backgroundColor: "#e49b53"}}><h3>Art</h3></div>
+                            <div className="subject" style={{backgroundColor: "#e49b53"}}><h3 className="subText">Art</h3></div>
                         </Link>
                     </Col>
                     <Col>
                         <Link className="linkHover" to="/inprogress">
-                            <div className="subject" style={{backgroundColor: "#8cb85f"}}><h3>Eco-living</h3></div>
+                            <div className="subject" style={{backgroundColor: "#8cb85f"}}><h3 className="subText">Eco-living</h3></div>
                         </Link>
                     </Col>
                     <Col>
                         <Link className="linkHover" to="/inprogress">
-                            <div className="subject" style={{backgroundColor: "#d6a4e4"}}><h3>Yoga</h3></div>
+                            <div className="subject" style={{backgroundColor: "#d6a4e4"}}><h3 className="subText">Yoga</h3></div>
                         </Link>
                     </Col>
                     <Col>
                         <Link className="linkHover" to="/inprogress">
-                            <div className="subject" style={{backgroundColor: "#ff5757"}}><h3>Language</h3></div>   
+                            <div className="subject" style={{backgroundColor: "#ff5757"}}><h3 className="subText">Language</h3></div>   
                         </Link>
                     </Col>
                     <Col>
                         <Link className="linkHover" to="/inprogress">
-                            <div className="subject" style={{backgroundColor: "#ffde59"}}><h3>Cooking</h3></div>    
+                            <div className="subject" style={{backgroundColor: "#ffde59"}}><h3 className="subText">Cooking</h3></div>    
                         </Link>
                     </Col>
                     <Col>
                         <Link className="linkHover" to="/inprogress">
-                            <div className="subject" style={{backgroundColor: "#4790f1"}}><h3>Wellness</h3></div>    
+                            <div className="subject" style={{backgroundColor: "#4790f1"}}><h3 className="subText">Wellness</h3></div>    
                         </Link>
                     </Col>
                 </Row>

@@ -6,18 +6,33 @@
     color: black;
 }
 
-.date-night{
+.events{
     text-align: left;
-    margin-left: 12em;
+    margin: 2em 0em 0em 0em;
 }
 
-.platter-design{
-    text-align: left;
-    margin-left: 12em;
+.eventBox {
+    padding-left: 7em;
+    width: 80%;
+    margin: auto !important;
 }
 
-.creative-whole-for-kids{
-    text-align: left;
-    margin-left: 12em;
-    padding-bottom: 5em;
+.tab {
+    color: #000000 !important;
+    border: None !important;
+    padding: "0em 0em 0em 0em"
+}
+
+.tab:hover {
+    color: #0162e4 !important;
+    border: None !important;
+}
+  
+.tab.active {
+    color: #0162e4 !important;
+    border: None !important;
+}
+
+.nav-tabs {
+    border-bottom: 1em solid #eff0f2 !important;
 }

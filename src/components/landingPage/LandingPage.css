@@ -39,7 +39,7 @@ p.sub {
     padding: 0em 0.5em 2em 0.5em;
 }
 
-h3 {
+h3.subText {
     color: #ffffff;
     line-height: 6.5em !important;
 }
@@ -56,6 +56,7 @@ p.lllText {
     height: 15em;
     width: 15em;
     display: block;
+    object-fit: cover;
 }
 
 .class {
@@ -98,13 +99,4 @@ p.lllText {
     .subjectContainer {
         width: 100%;
     }   
-}
-
-.explore-button{
-    color: white;
-}
-
-.explore-button:hover{
-    color: white;
-    text-decoration: None;
 }

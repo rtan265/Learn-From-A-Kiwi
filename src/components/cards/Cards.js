@@ -6,15 +6,15 @@ import { Link } from 'react-router-dom';
 import './Cards.css';
 
 const cards = [
-    { src: require('../../images/janineHomemade.jpg'), cat: "Cooking", title: "Janine Homemade" },
-    { src: require('../../images/yogaByTaryn.jpg'), cat: "Yoga", title: "Yoga By Taryn"},
-    { src: require('../../images/yogaByTaryn.jpg'), cat: "Yoga", title: "Selena Yoga"},
-    { src: require('../../images/culinaryChris.jpg'), cat: "Art", title: "Nick"},
-    { src: require('../../images/janineHomemade.jpg'), cat: "Cooking", title: "Cassie & Ben"},
-    { src: require('../../images/janineHomemade.jpg'), cat: "Wellness", title: "Esther"},
-    { src: require('../../images/yogaByTaryn.jpg'), cat: "Yoga", title: "Yoga by Megan"},
-    { src: require('../../images/poetry.jpg'), cat: "Language", title: "Max"},
-    { src: require('../../images/culinaryChris.jpg'), cat: "Cooking", title: "Culinary Chris"},
+    { src: require('../../images/janine.jpg'), cat: "Cooking", title: "Janine" },
+    { src: require('../../images/taryn.jpg'), cat: "Yoga", title: "Taryn"},
+    { src: require('../../images/selena.jpg'), cat: "Yoga", title: "Selena"},
+    { src: require('../../images/nick.jpg'), cat: "Art", title: "Nick"},
+    { src: require('../../images/cassieBen.jpg'), cat: "Cooking", title: "Cassie & Ben"},
+    { src: require('../../images/esther.jpg'), cat: "Wellness", title: "Esther"},
+    { src: require('../../images/selena.jpg'), cat: "Yoga", title: "Megan"},
+    { src: require('../../images/max.jpg'), cat: "Language", title: "Max"},
+    { src: require('../../images/li.jpg'), cat: "Cooking", title: "Li"},
 ];
 
 class Cards extends React.Component {
@@ -34,7 +34,7 @@ class Cards extends React.Component {
                                             <CardSubtitle style={{textAlign: "left"}}>{ key.title }</CardSubtitle>
                                             <CardText style={{textAlign: "left"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula turpis at finibus rutrum. </CardText>
                                             <Button style={{backgroundColor: "#0162e4"}}>
-                                                <Link to={ "/instructorAdditionalInfo" } className="link">Explore classes</Link>
+                                                <Link to={ "/instructorAdditionalInfo" } className="cardLink">Explore classes</Link>
                                             </Button>
                                         </CardBody>
                                     </Card>  

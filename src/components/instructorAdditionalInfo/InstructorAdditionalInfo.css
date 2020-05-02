@@ -1,41 +1,16 @@
-/* Split the screen in half */
-.split {
-    width: 50%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    overflow-x: hidden;
-    padding-top: 20px;
-  }
-  
-  /* Control the left side */
-  .left {
-    left: 0;
-    background-size: auto;
-    margin-left: 4em;
-    height: 26.6em;
-    position: absolute;
-    background-image: url( '../../images/janineHomemade.jpg');
-    background-repeat: no-repeat;
-  }
-  
-  /* Control the right side */
-  .right {
-    right: 0;
-    position: absolute;
-    height: 26.6em;
-  }
-  
 .text-title{
     padding-top: 1em;
     font-size: 3em;
-
+    color: #0162e4;
+    font-weight: 700;
 }
 
-.text-body{
+div.text-body{
     text-align: left;
+    width: 28em;
 }
 
 .display{
     font-size: 1em;
 }
+
