@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 
 import './Navigation.css';
 
+import brand from '../../images/brand.png';
+
 const links = [
   { link: "/explore", text:"Explore" },
   { link: "/instructors", text:"Instructors" },
@@ -36,7 +38,7 @@ class Navigation extends React.Component {
     return (
       <div>
         <Navbar position="sticky" expand="lg" dark className="navbar sticky-top">
-        <NavbarBrand className="link" exact href="/">LearnFromA.Kiwi</NavbarBrand>
+        <NavbarBrand className="link" exact href="/"><img src={brand} /></NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} />
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav navbar className="ml-auto">

@@ -1,12 +1,14 @@
 .navbar {
-    background-color: #0162e4;
+    background-color: #2b2629;
 }
 
 a.link.navbar-brand {
     color: #ffffff;
-    font-size: 2em;
-    font-weight: 600;
     padding-left: 1em;
+}
+
+img {
+    width: 12em;
 }
 
 .nav-item {
@@ -21,7 +23,12 @@ a.link {
 
 a.link:hover {
     text-decoration: None;
-    color: #000000;
+    color: #0162e4 !important;
+}
+
+a.link.active {
+    text-decoration: None;
+    color: #0162e4 !important;
 }
 
 @media (max-width: 768px) {
