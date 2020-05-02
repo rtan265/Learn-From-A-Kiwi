@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Jumbotron, Button, Row, Col } from 'reactstrap';
 
 import './LandingPage.css';
+import Footer from '../footer/Footer';
 
 import JumbotronImg from '../../images/jumbotron.jpg';
 import JanineHomemade from '../../images/janineHomemade.jpg';
@@ -73,7 +74,7 @@ class LandingPage extends React.Component {
                     </Col>
                 </Row>
             </Container>
-            
+            <Footer />
         </div>
     );
   }
