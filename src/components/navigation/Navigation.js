@@ -7,7 +7,7 @@ import './Navigation.css';
 const links = [
   { link: "/explore", text:"Explore" },
   { link: "/instructors", text:"Instructors" },
-  { link: "/signin", text:"Sign in" },
+  { link: "/signin", text:"Sign in" }
 ];
 
 class Navigation extends React.Component {
