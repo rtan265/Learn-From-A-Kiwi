@@ -82,32 +82,32 @@ class LandingPage extends React.Component {
                 <Row className="subjectContainer">
                     <Col>
                         <Link className="linkHover" to="/inprogress">
-                            <div className="subject" style={{backgroundColor: "#e49b53"}}><h3>Art</h3></div>
+                            <div className="subject" style={{backgroundColor: "#e49b53"}}><h3 className="subText">Art</h3></div>
                         </Link>
                     </Col>
                     <Col>
                         <Link className="linkHover" to="/inprogress">
-                            <div className="subject" style={{backgroundColor: "#8cb85f"}}><h3>Eco-living</h3></div>
+                            <div className="subject" style={{backgroundColor: "#8cb85f"}}><h3 className="subText">Eco-living</h3></div>
                         </Link>
                     </Col>
                     <Col>
                         <Link className="linkHover" to="/inprogress">
-                            <div className="subject" style={{backgroundColor: "#d6a4e4"}}><h3>Yoga</h3></div>
+                            <div className="subject" style={{backgroundColor: "#d6a4e4"}}><h3 className="subText">Yoga</h3></div>
                         </Link>
                     </Col>
                     <Col>
                         <Link className="linkHover" to="/inprogress">
-                            <div className="subject" style={{backgroundColor: "#ff5757"}}><h3>Language</h3></div>   
+                            <div className="subject" style={{backgroundColor: "#ff5757"}}><h3 className="subText">Language</h3></div>   
                         </Link>
                     </Col>
                     <Col>
                         <Link className="linkHover" to="/inprogress">
-                            <div className="subject" style={{backgroundColor: "#ffde59"}}><h3>Cooking</h3></div>    
+                            <div className="subject" style={{backgroundColor: "#ffde59"}}><h3 className="subText">Cooking</h3></div>    
                         </Link>
                     </Col>
                     <Col>
                         <Link className="linkHover" to="/inprogress">
-                            <div className="subject" style={{backgroundColor: "#4790f1"}}><h3>Wellness</h3></div>    
+                            <div className="subject" style={{backgroundColor: "#4790f1"}}><h3 className="subText">Wellness</h3></div>    
                         </Link>
                     </Col>
                 </Row>
