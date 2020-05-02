@@ -98,3 +98,12 @@ p.lllText {
         width: 100%;
     }   
 }
+
+.explore-button{
+    color: white;
+}
+
+.explore-button:hover{
+    color: white;
+    text-decoration: None;
+}
