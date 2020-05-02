@@ -34,7 +34,7 @@ class LandingPage extends React.Component {
                 </Row>
                 <Row>
                     <Col>
-                        <Link className="linkHover" to="/instructors">
+                        <Link className="linkHover" to="/instructorAdditionalInfo">
                             <figure className="class">                           
                                 <img src={ Janine } alt="Janine" className="classImg" />
                                 <figcaption>Janine</figcaption>
