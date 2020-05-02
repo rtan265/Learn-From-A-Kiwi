@@ -1,6 +1,8 @@
 import React from 'react';
 import './SignIn.css'; 
 
+import logo from '../../images/logo-signin.png';
+
 class SignIn extends React.Component {
   constructor(props){
     super(props);
@@ -26,6 +28,7 @@ class SignIn extends React.Component {
     if (this.state.loginState === "student"){
       return(
         <form className = "sign-in-form">
+        <img src={logo} />
         <h3 className="title-signin">Sign In as a <strong>Student</strong></h3>
         <div className = "form-group">
           <label>Email Address</label>
@@ -56,6 +59,7 @@ class SignIn extends React.Component {
     } else {
       return (
         <form className = "sign-in-form">
+          <img src={logo} />
           <h3 className="title-signin">Sign In as an <strong>Instructor</strong></h3>
           <div className = "form-group">
             <label>Email Address</label>
