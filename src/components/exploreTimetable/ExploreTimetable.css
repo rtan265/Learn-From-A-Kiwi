@@ -40,7 +40,6 @@
 }
 
 .rectangle {
-    background-color: #ffbd59;
     height: 2em;
     width: 6.5em;
     margin: 1.2em 1em 0.5em 0em;
@@ -61,3 +60,4 @@
     font-weight: 500 !important; 
     color: #ffffff !important;
 }
+
