@@ -1,14 +1,9 @@
 h1.display-3 {
     text-align: center;
-    color: #ffffff;
+    color: black;
     font-weight: 400;
     font-size: 2em;
     padding-bottom: 1em;
-}
-
-.jumbotron {
-    height: 22em;
-    margin-bottom: 0em !important;
 }
 
 .container-fluid {
@@ -108,4 +103,8 @@ a.explore-button:hover {
     .subjectContainer {
         width: 100%;
     }   
+}
+
+.carousel-image-style{
+    height: 23em;
 }
