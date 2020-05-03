@@ -55,13 +55,19 @@ class LandingPage extends React.Component {
   render() {
     return (
         <div style={{backgroundColor: "#eff0f2"}}>
-            <UncontrolledCarousel items = {items} className = "carousel-image-style"/>
-                <Container fluid className="vertical-center">
-                    <h1 className="display-3">Locals. Learning. Live</h1>
-                    <p className="lead">
-                        <Button color="dark"><Link className = "explore-button" to="/exploretimetable">EXPLORE TIMETABLES</Link></Button>
-                    </p>
-                </Container>
+            <UncontrolledCarousel 
+                items = { items }     
+                interval = { 2000 }         
+                indicators = { false }
+                controls = { false }
+                className = "carousel-image-style"
+                />
+            <Container fluid className="vertical-center">
+                <h1 className="display-3">Locals. Learning. Live</h1>
+                <p className="lead">
+                    <Button color="dark"><Link className = "explore-button" to="/exploretimetable">EXPLORE TIMETABLES</Link></Button>
+                </p>
+            </Container>
             <Container fluid className="containerBg">
                 <Row> 
                     <h2 className="title">Find an Instructor</h2>
