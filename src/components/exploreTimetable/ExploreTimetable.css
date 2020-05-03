@@ -5,16 +5,17 @@
     border-radius: 50%;
     display: inline-block;
     color: #ffffff;
+    font-weight: 700;
 }
-
 
 .dot {
     height: 25px;
     width: 25px;
-    background-color: #cccbcb;
+    background-color: #e7e9eb;
     border-radius: 50%;
     display: inline-block;
-    color: #000000;
+    color: #545454;
+    font-weight: 700;
 }
 
 .timetableBox {
@@ -23,8 +24,8 @@
 }
 
 .timetableBar {
-    background-color: #cccbcb;
-    width: 8em;
+    background-color: #e7e9eb;
+    width: 10em;
     height: 31em;
     margin: 0.5em auto 3em auto !important;
 }
@@ -41,7 +42,7 @@
 
 .rectangle {
     height: 2em;
-    width: 6.5em;
+    width: 8em;
     margin: 1.2em 1em 0.5em 0em;
 }
 
