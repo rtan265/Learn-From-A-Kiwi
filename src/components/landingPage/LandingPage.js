@@ -37,7 +37,7 @@ const items = [
         altText: 'Slide 3',
         caption: '',
         header: '',
-        keys: '3'
+        keys: '3',
     }
 ]
 
