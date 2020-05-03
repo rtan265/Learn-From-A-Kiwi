@@ -27,7 +27,7 @@ class ExploreTimetable extends React.Component {
         </Jumbotron>
 
         <div className="timetableBox">
-          <h1 style={{paddingTop: "0.5em"}} ><span style={{paddingRight: "4em", color: "#0162e4"}}>Timetable - all </span> Join Friends</h1>
+          <h1 style={{paddingTop: "0.5em"}} ><span style={{marginRight: "4em", color: "#0162e4", cursor: "pointer"}}>Timetable - all </span> <span style={{cursor: "pointer"}}>Join Friends</span></h1>
         
           <Row style={{paddingTop: "2em"}}>
             <Col className="padCols">
