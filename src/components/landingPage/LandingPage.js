@@ -1,30 +1,67 @@
 import React from 'react';
-import { Container, Jumbotron, Button, Row, Col } from 'reactstrap';
+import { Container, Jumbotron, Button, Row, Col, UncontrolledCarousel } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
 import './LandingPage.css';
+
 import Footer from '../footer/Footer';
 
-import JumbotronImg from '../../images/jumbotron.jpg';
 import Janine from '../../images/janine.jpg';
 import Taryn from '../../images/taryn.jpg';
 import MariaDeclan from '../../images/mariaDeclan.jpg';
 import CassieBen from '../../images/cassieBen.jpg';
 import Esther from '../../images/esther.jpg';
 
+// Jumbotron carousel images
+import JumbotronImg from '../../images/jumbotron.jpg';
+import JumbotronImg2 from '../../images/landingPageMomJumbo.png';
+import JumbotronImg3 from '../../images/landingPageYoga.png';
+
+const items = [
+    {
+        src: JumbotronImg,
+        alText: 'Slide 1',
+        caption: '',
+        header: '',
+        key: '1'
+    },
+    {
+        src: JumbotronImg2,
+        altText: 'Slide 2',
+        caption: '',
+        header: '',
+        key: '2'
+    },
+    {
+        src: JumbotronImg3,
+        altText: 'Slide 3',
+        caption: '',
+        header: '',
+        keys: '3',
+    }
+]
 
 class LandingPage extends React.Component {
+  constructor(props){
+      super(props);
+      this.state = ({
+          activeIndex: 0,
+          setActiveIndex: 0,
+          animating: false,
+          setAnimating: false
+      })
+  }
+
   render() {
     return (
         <div style={{backgroundColor: "#eff0f2"}}>
-            <Jumbotron style={{ backgroundImage: `url(${JumbotronImg})`, backgroundSize: 'cover' }} fluid>
+            <UncontrolledCarousel items = {items} className = "carousel-image-style"/>
                 <Container fluid className="vertical-center">
                     <h1 className="display-3">Locals. Learning. Live</h1>
                     <p className="lead">
-                        <Button color="dark"><Link className = "explore-button" to="/explore">EXPLORE TIMETABLES</Link></Button>
+                        <Button color="dark"><Link className = "explore-button" to="/exploretimetable">EXPLORE TIMETABLES</Link></Button>
                     </p>
                 </Container>
-            </Jumbotron>
             <Container fluid className="containerBg">
                 <Row> 
                     <h2 className="title">Find an Instructor</h2>
