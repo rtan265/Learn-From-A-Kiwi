@@ -59,7 +59,7 @@ class LandingPage extends React.Component {
                 <Container fluid className="vertical-center">
                     <h1 className="display-3">Locals. Learning. Live</h1>
                     <p className="lead">
-                        <Button color="dark"><Link className = "explore-button" to="/explore">EXPLORE TIMETABLES</Link></Button>
+                        <Button color="dark"><Link className = "explore-button" to="/exploretimetable">EXPLORE TIMETABLES</Link></Button>
                     </p>
                 </Container>
             <Container fluid className="containerBg">
