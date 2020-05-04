@@ -12,10 +12,10 @@ LearnFromAKiwi is a website that allows users to take classes, and our website a
 First, clone the repository. Then navigate into the directory, and run `npm install` to install the dependencies, and then `npm start`, which will open up a local host. Currently, as of (03/05/2020), the only working pages are the landing page, explore timetable page, signin page, and an additional instructor page. 
 
 ## Contributions:
-[Tristan Adams] (https://www.linkedin.com/in/tristandadams/)
-[Amanda Butterworth] (https://www.linkedin.com/in/amandabutterworth2/)
-[Sunny Feng] (https://www.linkedin.com/in/sunnyfeng617/)
-[Ruth Martin] (https://www.linkedin.com/in/drruthmartin/)
-Jaimee Scott
-[Michael Spicer] (https://www.linkedin.com/in/michael-spicer-795834a4/)
-[Ryan Tan] (https://www.linkedin.com/in/rtan18/)
+[Tristan Adams] (https://www.linkedin.com/in/tristandadams/)  
+[Amanda Butterworth] (https://www.linkedin.com/in/amandabutterworth2/)  
+[Sunny Feng] (https://www.linkedin.com/in/sunnyfeng617/)  
+[Ruth Martin] (https://www.linkedin.com/in/drruthmartin/)  
+Jaimee Scott  
+[Michael Spicer] (https://www.linkedin.com/in/michael-spicer-795834a4/)  
+[Ryan Tan] (https://www.linkedin.com/in/rtan18/)  
