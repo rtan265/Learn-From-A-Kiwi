@@ -7,7 +7,7 @@ import './LandingPage.css';
 import Footer from '../footer/Footer';
 
 import Janine from '../../images/janine.jpg';
-import Taryn from '../../images/taryn.jpg';
+import Nick from '../../images/nick.jpg';
 import MariaDeclan from '../../images/mariaDeclan.jpg';
 import CassieBen from '../../images/cassieBen.jpg';
 import Esther from '../../images/esther.jpg';
@@ -87,8 +87,8 @@ class LandingPage extends React.Component {
                     <Col>
                         <Link className="linkHover" to="/instructors">
                             <figure className="class">                            
-                                <img src={ Taryn } alt="Taryn" className="classImg" />
-                                <figcaption>Taryn</figcaption>
+                                <img src={ Nick } alt="Nick" className="classImg" />
+                                <figcaption>Nick</figcaption>
                             </figure>
                         </Link>
                     </Col>
