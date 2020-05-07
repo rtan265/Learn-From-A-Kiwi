@@ -7,7 +7,7 @@ import './Cards.css';
 
 const cards = [
     { src: require('../../images/janine.jpg'), cat: "Cooking", title: "Janine" },
-    { src: require('../../images/taryn.jpg'), cat: "Yoga", title: "Taryn"},
+    { src: require('../../images/taryn.jpg'), cat: "Art", title: "Nick"},
     { src: require('../../images/selena.jpg'), cat: "Yoga", title: "Selena"},
     { src: require('../../images/nick.jpg'), cat: "Art", title: "Nick"},
     { src: require('../../images/cassieBen.jpg'), cat: "Cooking", title: "Cassie & Ben"},
