@@ -19,3 +19,5 @@ First, clone the repository. Then navigate into the directory, and run `npm inst
 Jaimee Scott  
 [Michael Spicer](https://www.linkedin.com/in/michael-spicer-795834a4/)  
 [Ryan Tan](https://www.linkedin.com/in/rtan18/)  
+
+![Team Photo](./readmeImages/thankYouSlide.JPG)
