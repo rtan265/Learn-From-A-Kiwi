@@ -1,4 +1,4 @@
-# [Learn From A Kiwi!](learn-from-a-kiwi.netlify.app)
+# [Learn From A Kiwi!](https://learn-from-a-kiwi.netlify.app/)
 
 ## What is this project about?
 
